@@ -7,9 +7,8 @@ body {
     background-repeat: no-repeat;
     color: #fff; /* Set text color to white for better visibility */
 }
-main {
-    flex: 1; /* Expand to fill remaining vertical space */
-}
+
+
 header {
     background-color: rgba(0, 123, 255, 0.5); /* Blue background with 50% opacity */
     color: white;
