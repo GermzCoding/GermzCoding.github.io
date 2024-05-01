@@ -3,12 +3,15 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('standup.jpg'); /* Background photo */
-    background-size: 1200px;
+    background-size: cover;
     background-repeat: no-repeat;
     color: #fff; /* Set text color to white for better visibility */
 }
-
-
+.container {
+    max-width: 90%;
+    margin:0 auto;
+    padding:20px
+}
 header {
     background-color: rgba(0, 123, 255, 0.5); /* Blue background with 50% opacity */
     color: white;
@@ -105,4 +108,5 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #0056b3; /* Darker blue */
 }
+
 
