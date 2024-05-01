@@ -1,4 +1,4 @@
-.button {
+button {
     padding: 10px 20px;
     background-color: #007bff;
     color: white;
@@ -7,10 +7,15 @@
     cursor: pointer;
     font-size: 16px;
     text-decoration: none;
-    display: block; /* Make buttons block-level elements */
-    width: 100%; /* Make buttons fill the available width */
-    max-width: 200px; /* Limit maximum width */
-    margin: 0 auto; /* Center buttons horizontally */
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-bottom: 10px; /* Add margin bottom for spacing */
+}
+
+.button:last-child {
+    margin-bottom: 0; /* Remove margin bottom for the last button */
 }
 
 .button:hover {
