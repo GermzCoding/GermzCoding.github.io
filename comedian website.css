@@ -1,3 +1,23 @@
+.button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    display: block; /* Make buttons block-level elements */
+    width: 100%; /* Make buttons fill the available width */
+    max-width: 200px; /* Limit maximum width */
+    margin: 0 auto; /* Center buttons horizontally */
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -108,5 +128,4 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #0056b3; /* Darker blue */
 }
-
 
