@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('standup.jpg'); /* Background photo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff; /* Set text color to white for better visibility */
+}
+main {
+    flex: 1; /* Expand to fill remaining vertical space */
+}
+header {
+    background-color: rgba(0, 123, 255, 0.5); /* Blue background with 50% opacity */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+}
+
+header h1 {
+    margin: 0;
+}
+.container h2 {
+    color: white;
+    /* Add a bold black outline */
+    text-shadow: -1px -1px 0 #000, 2px -1px 0 #000, -1px 2px 0 #000, 2px 2px 0 #000;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+footer {
+    background-color: rgba(0, 123, 255, 0.5); /* Blue background with 50% opacity */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width:100%;
+    width: 100%
+    bottom: 0;
+
+}
+
+
+.center {
+    text-align: center;
+}
+
+/* Center the copyright text */
+.footer p {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+/*Center the content of the footer*/
+footer p {
+    margin: 0;
+}
+.container p {
+    color: white;
+    /* Add a bold outline */
+    text-shadow: -1px -1px 2px #000,  
+                  1px -1px 2px #000,
+                 -1px  1px 2px #000,
+                  1px  1px 2px #000;
+    /* Double spacing */
+    line-height: 2;
+    /* Indentation */
+    text-indent: 20px; /* Adjust the value as needed */
+}
+
+/* Style for the buttons */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue background */
+    border:4px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Style for button hover effect */
+nav ul li a:hover {
+    background-color: #0056b3; /* Darker blue */
+}
+
