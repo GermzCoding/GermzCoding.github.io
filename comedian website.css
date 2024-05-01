@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('standup.jpg'); /* Background photo */
-    background-size: cover;
+    background-size: 1200px;
     background-repeat: no-repeat;
     color: #fff; /* Set text color to white for better visibility */
 }
@@ -14,6 +14,7 @@ header {
     color: white;
     padding: 20px 0;
     text-align: center;
+    border-bottom: 4px solid black;
 }
 
 }
