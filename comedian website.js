@@ -15,7 +15,7 @@ function createButton(text, link) {
 
 // Append buttons to the navigation bar
 var navBar = document.getElementById("navBar");
-navBar.querySelector("ul").appendChild(createButton("Home", "#bio"));
+
 navBar.querySelector("ul").appendChild(createButton("Bio", "#bio"));
 navBar.querySelector("ul").appendChild(createButton("Donate", "https://www.paypal.com/donate/?business=LZ23PENCUYC7C&no_recurring=0&currency_code=USD"));
 navBar.querySelector("ul").appendChild(createButton("Book me!", "mailto:mrinsanemethod@gmail.com"));
