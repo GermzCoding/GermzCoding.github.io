@@ -1,21 +1,22 @@
-button {
-    padding: 10px 20px;
+html {
+    height: -webkit-fill-available;
+}
+
+
+
+.button {
+    padding: 10px 15px;
     background-color: #007bff;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 12px;
     text-decoration: none;
     display: block;
     width: 100%;
-    max-width: 200px;
+    max-width: 100px;
     margin: 0 auto;
-    margin-bottom: 10px; /* Add margin bottom for spacing */
-}
-
-.button:last-child {
-    margin-bottom: 0; /* Remove margin bottom for the last button */
 }
 
 .button:hover {
@@ -28,10 +29,13 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('standup.jpg'); /* Background photo */
-    background-size: cover;
+    background-size: 1000px;
     background-repeat: no-repeat;
+    height:-webkit-fill-available;
+    height:100vh;
     color: #fff; /* Set text color to white for better visibility */
 }
+
 .container {
     max-width: 90%;
     margin:0 auto;
@@ -62,7 +66,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 5px;
 }
 
 nav ul li a {
